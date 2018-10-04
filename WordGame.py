@@ -15,7 +15,7 @@ def parse_file(file):
     while True:
         try:
             keys = extractfile(file)
-            print('Loading...')
+            print('Loading....')
             return keys
 
         except:

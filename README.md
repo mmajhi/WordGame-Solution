@@ -18,15 +18,15 @@ keats
 ```
 
 ### How does it work
-##### Loading
+#### Loading
 The **_dictionary.txt_** file contains **466k** different english words. All these words are loaded in the *Trie* data structure. 
 
-##### Searching
+#### Searching
 All the permutations of the given letters of provided length are then searched in the Trie and if found it is printed.
 
 For using trie data structure the program runs very fast and efficiently. The time complexity for searching and inserting a word is O(n) where n is the length of the word.
 
-##### Optimization
+#### Optimization
 A better _'dictionary.txt'_ file(with less irrelevant words) can be used for speeding up the loading time and less memory consumption.
 
 ### Author
